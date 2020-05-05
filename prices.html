@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <div class="container-fluid navalert-container">
+     <div class="container-fluid navalert-container">
       <nav class="navbar navbar-dark navbar-expand-sm">
         <a href="/" class="navbar-brand"
           ><i class="fas fa-dumbbell"></i> CC Fitness</a
@@ -52,51 +52,110 @@
             <li class="active nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-
-            <li class="active nav-item">
-              <a class="nav-link" href="/courses.html">Courses/Prices</a>
-            </li>
-
-            <li class="active nav-item">
+           <li class="active nav-item">
               <a class="nav-link" href="videos.html">Session Videos</a>
             </li>
 
             <li class="active nav-item">
               <a class="nav-link" href="about.html">About</a>
+
+              <li class="active nav-item">
+              <a class="nav-link" href="prices.html">Prices</a>
+            </li>
             </li>
           </ul>
         </div>
       </nav>
     </div>
+
     <div class="container-fluid callout-container">
       <div class="opaque-overlay">&nbsp;</div>
       <div class="row">
         <div class="col-12">
-          <section class="callout jumbotron text-center">
-            <h1>Courses/Price List</h1>
-
+          <div class="callout jumbotron text-center">
+            <h1 class="jumbotron-header">Courses/Prices</h1>
             <p>
               For more information and availability please use the sign up
-              button and we will get back to you ASAP.
+              button.
             </p>
-            <div class="grid-container">
-              <div class="grid-heading"><strong>Session</strong></div>
-              <div class="grid-heading"><strong>Cost Per Hour</strong></div>
-              <div class="grid-heading"><strong>Book 10 in Advance Per Hour</strong></div>
-              <div class="grid-item">1-2-1 in Gym</div>
-              <div class="grid-item">£35.00</div>
-              <div class="grid-item">£30.00</div>
-              <div class="grid-item">1-2-1 in Park (Weather Permitting)</div>
-              <div class="grid-item">£30.00</div>
-              <div class="grid-item">£25.00</div>
-              <div class="grid-item">1-2-1 At Your Home</div>
-              <div class="grid-item">£40.00</div>
-              <div class="grid-item">£35.00</div>
-              <div class="grid-item">
-                Group Circuits in Park (Weather Permitting)
+            <div class="row">
+              <div class="col-sm-3 col-md-4" style="background-color: blue;">
+                Session
               </div>
-              <div class="grid-item">£25.00</div>
-              <div class="grid-item">£20.00</div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: blue;">
+                Cost Per Hour
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: blue;">
+                Book 10 in Advance Per Hour
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-sm-3 col-md-4" style="background-color: darkblue;">
+                1-2-1 in the Gym
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: darkblue;">
+                £35.00
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: darkblue;">
+                £30.00
+              </div>
+            </div>
+              <div class="row">
+              <div class="col-sm-3 col-md-4" style="background-color: blue;">
+                1-2-1 in the Park (Weather Permitting)
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: blue;">
+                £30.00
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: blue;">
+                £25.00
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-sm-3 col-md-4" style="background-color: darkblue;">
+                1-2-1 At Your Home 
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: darkblue;">
+                £40.00
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color :darkblue;">
+                £35.00
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-sm-3 col-md-4" style="background-color: blue;">
+                Circuits in the Park (Weather Permitting) 
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color: blue;">
+                £25.00
+              </div>
+              <div
+                class="col-sm-3 col-md-4"
+                style="background-color :blue;">
+                £20.00
+              </div>
+              
             </div>
             <button
               class="btn btn-lg btn--cta btn--red"
@@ -105,11 +164,11 @@
             >
               Sign Up!
             </button>
-          </section>
+          </div>
         </div>
       </div>
     </div>
-     
+   
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -161,7 +220,6 @@
       </div>
     </div>
 
-
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -186,20 +244,20 @@
           <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <i class="fab fa-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
-                <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
             <li class="list-inline-item">
               <a target="_blank" href="#">
                 <i class="fab fa-linkedin" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
+                <span class="sr-only">LinkedIn</span>
               </a>
             </li>
             <li class="list-inline-item">
