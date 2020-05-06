@@ -1,37 +1,34 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#Milestone Project 1
 
-Welcome Craggy19,
+##CC Fitness. 
+The aim of the website is to advertise CC Fitness to prospective clients and to sell the company in the local area.  It is arranged in 4 different pages using links in the header.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
+###UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The site is for anyone who is interested in employing a personal trainer and to show the variety of exercises that are available to anyone and everyone. 
+It will show a few testimonials the company have received from current clients and the various goals each person is able to achieve. 
+There will also be some video evidence of some of the activities that you can expect to perform in. 
+There is also a short biog of the trainer giving his qualifications and experience.
+Finally, there will be an activity list with prices including a discount price for booking 10 sessions in advance.
+The initial template for the site was built on a wireframe using Balsamiq the pdf folder is here  
+This template was changed as the project progressed, but the basics are the same. 
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+###Features
 
-Another blue button should appear to click: *Open Browser*.
+Each page tells a different story. 
+Home Page: Shows a strong headline with a mission statement. This is meant to draw the user in. there is a backdrop of a park with a runner which will show that this is an activity that can be performed outdoors as well as in a gym. There is also a list of testimonials given by current clients.
+Videos: This page will have a number of videos showing the sort of exercise that is available and will cover the different types of age and experience the trainer will cover.
+About: A short description showing the experience and qualifications of the trainer. It will also show his enthusiasm and dedication.
+Prices: The final page will show the available sessions and the prices per hour for each class. This includes a discount for long term booking. 
+On each page there is a Sign-Up button which will direct them to a modal asking for their details and advising that you will receive a response asap. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+###Technologies
+HTML and CSS used for main page build and styling.
+Bootstrap used for additional styling and grid on pricing page.
+Google images for backdrop and testimonial images.
+Learning Lab for tutorial on video download and looping. 
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+###Testing
