@@ -48,7 +48,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="active nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -58,10 +58,10 @@
             </li>
 
             <li class="active nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="prices.html">Prices</a>
 
               <li class="active nav-item">
-              <a class="nav-link" href="prices.html">Prices</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             </li>
           </ul>
@@ -70,22 +70,45 @@
     </div>
     <div class="container-fluid callout-container">
       <div class="opaque-overlay">&nbsp;</div>
-      <div class="row">
+      <div class="row text-center">
         <div class="col-12">
-          <section class="callout jumbotron text-center">
-            <h1 class="jumbotron-header">Sample Videos</h1>
+       
+      
+         <h1 class="callout">Sample Sessions</h1>
+        </div>
+         <div class="col-12 col-sm-4 sample-video">   
 
-             <video width="420" height="315"  loop controls>
+             <video loop controls>
               <source src="videos/VIDEO1.mp4" type="video/mp4" />
             </video>
-            <video width="420" height="315"  loop controls>
+         </div>
+         <div class="col-12 col-sm-4 sample-video">
+            <video loop controls>
               <source src="videos/VIDEO4.mp4" type="video/mp4" />
             </video>
-            <video width="420" height="315" loop controls>
+         </div>
+         <div class="col-12 col-sm-4 sample-video">
+            <video loop controls>
               <source src="videos/VIDEO5.mp4" type="video/mp4" />
             </video>
+         </div>
+         <div class="col-12 col-sm-4 sample-video">
+            <video loop controls>
+              <source src="videos/VIDEO2.mp4" type="video/mp4" />
+            </video>
+         </div>
+         <div class="col-12 col-sm-4 sample-video">
+            <video loop controls>
+              <source src="videos/VIDEO3.mp4" type="video/mp4" />
+            </video>
+         </div>
+         <div class="col-12 col-sm-4 sample-video">
+            <video loop controls>
+              <source src="videos/VIDEO6.mp4" type="video/mp4" />
+            </video>
+         </div>
             
-
+        <div class="col-12">
             <button
               class="btn btn-lg btn--cta btn--red"
               data-toggle="modal"
@@ -93,10 +116,11 @@
             >
               Sign Up!
             </button>
-          </section>
+        </div>
+          
         </div>
       </div>
-    </div>
+   
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
       <div class="modal-dialog" role="document">
@@ -113,7 +137,8 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form onsubmit="alert('Submitted'); return false;">
+
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input
@@ -168,7 +193,7 @@
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-12">
-          <h5 class="text-uppercase general-sub">Social</h5>
+          
           <p class="inline-block"></p>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
