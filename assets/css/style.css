@@ -1,7 +1,7 @@
 body {
    font-family: 'Roboto', sans-serif;
 }
-
+/*-----------------------Callout-------------------*/
 .container-wrapper--blue {
     background-color: lightblue;
 }
@@ -49,6 +49,8 @@ body {
     z-index: 1;
 }
 
+/*-----------------------Navbar-------------------*/
+
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -75,6 +77,8 @@ body {
     margin: left;
 }
 
+/*-----------------------Jumbotron-------------------*/
+
 .jumbotron {
     background-color: transparent;
 }
@@ -93,6 +97,13 @@ body {
 
 .jumbotron {
     letter-spacing: 3px;
+}
+.jumbotron .courses h1 {
+    margin-top: 100px;
+}
+
+.jumbotron .about {
+    margin-top: 50px;
 }
 
 .d-none d-sm-block {
@@ -127,6 +138,8 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
 }
+
+/*-----------------------Buttons-------------------*/
 
 .btn--cta {
     font-weight: bold;
@@ -163,7 +176,7 @@ footer {
     text-align: center;
 }
 
-/*---Social----*/
+/*----------------Social--------------------*/
 
 .social-links {
     padding: 0;
@@ -184,7 +197,7 @@ footer {
     -o-transition: all 0.35s ease-in-out; 
 }
 
-/*-----course/price----*/
+/*-----------------course/price-------------------*/
 
 .grid-container {
   display: grid;
@@ -213,13 +226,7 @@ footer {
   color: black;
 }
 
-.jumbotron .courses h1 {
-    margin-top: 100px;
-}
-
-.jumbotron .about {
-    margin-top: 50px;
-}
+/*---------------------videos-----------------*/
 
 .col-sm-3 .col-md-4 {
     padding: 20px;
